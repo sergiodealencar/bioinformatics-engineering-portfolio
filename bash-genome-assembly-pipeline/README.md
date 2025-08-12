@@ -56,7 +56,7 @@ conda activate genome_assembly
 🚀 Usage
 Run the pipeline:
 
-bash [assembly_pipeline_bacteria.sh[(https://github.com/sergiodealencar/bioinformatics-engineering-portfolio/blob/main/bash-genome-assembly-pipeline/assembly_pipeline_bacteria.sh)
+bash [assembly_pipeline_bacteria.sh](https://github.com/sergiodealencar/bioinformatics-engineering-portfolio/blob/main/bash-genome-assembly-pipeline/assembly_pipeline_bacteria.sh)
 
 Script Parameters
 THREADS: number of CPU threads to use (default: 8)

@@ -24,6 +24,7 @@ flowchart LR
 Place all your `.fastq.gz` files in the same directory as the pipeline script.  
 This example processes **four bacterial samples**, each with paired-end reads:
 
+```
 ACS09_S3_L001_R1_001.fastq.gz
 ACS09_S3_L001_R2_001.fastq.gz
 MHM_S2_L001_R1_001.fastq.gz
@@ -32,6 +33,7 @@ MAE_S1_L001_R1_001.fastq.gz
 MAE_S1_L001_R2_001.fastq.gz
 PDM_S4_L001_R1_001.fastq.gz
 PDM_S4_L001_R2_001.fastq.gz
+```
 
 
 ---

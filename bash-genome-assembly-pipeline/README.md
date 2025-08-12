@@ -9,7 +9,7 @@ This repository contains a **Bash-based pipeline** for processing and assembling
 ### **Workflow**
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[Raw Paired-end Reads] --> B[FastQC: Quality Control]
     B --> C[Trimmomatic: Adapter Removal & Quality Trimming]
     C --> D[SPAdes: Genome Assembly]

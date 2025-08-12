@@ -56,8 +56,8 @@ for SAMPLE in "${SAMPLES[@]}"; do
         -o "$SAMPLE_DIR/${SAMPLE}_quast_report" \
         -t $THREADS
 
-    echo "✅ Sample $SAMPLE completed!"
+    echo "Sample $SAMPLE completed!"
 done
 
-echo "🎉 Pipeline finished for all samples!"
+echo "Pipeline finished for all samples!"
 

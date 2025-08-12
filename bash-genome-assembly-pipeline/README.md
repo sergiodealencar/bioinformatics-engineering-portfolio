@@ -8,6 +8,7 @@ It includes **pre-processing**, **assembly**, and **quality assessment** steps, 
 ## 📋 Overview
 
 ### **Workflow**
+
 ```mermaid
 flowchart LR
     A[Raw Paired-end Reads] --> B[FastQC: Quality Control]

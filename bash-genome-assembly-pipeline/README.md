@@ -18,7 +18,7 @@ flowchart LR
 ```
 
 
-## 📂 Input Files
+## Input Files
 
 Place all your `.fastq.gz` files in the same directory as the pipeline script.  
 This example processes **four bacterial samples**, each with paired-end reads:
@@ -37,7 +37,7 @@ PDM_S4_L001_R2_001.fastq.gz
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Make sure the following tools are installed and available in your `$PATH`:
 
@@ -46,14 +46,8 @@ Make sure the following tools are installed and available in your `$PATH`:
 - [SPAdes](https://cab.spbu.ru/software/spades/)
 - [QUAST](http://quast.sourceforge.net/)
 
-You can install them via **Conda**:
 
-```bash
-conda create -n genome_assembly fastqc trimmomatic spades quast -c bioconda
-conda activate genome_assembly
-```
-
-🚀 Usage
+Usage
 Run the pipeline:
 
 bash [assembly_pipeline_bacteria.sh](https://github.com/sergiodealencar/bioinformatics-engineering-portfolio/blob/main/bash-genome-assembly-pipeline/assembly_pipeline_bacteria.sh)

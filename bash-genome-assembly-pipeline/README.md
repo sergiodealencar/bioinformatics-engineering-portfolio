@@ -10,11 +10,15 @@ This repository contains a **Bash-based pipeline** for processing and assembling
 
 ```mermaid
 flowchart LR
-  A[Raw Reads] --> B[FastQC]
-  B --> C[Trim]
-  C --> D[SPAdes]
-  D --> E[QUAST]
-  E --> F[Reports]
+    A[Raw Paired-end Reads] --> B[FastQC: Quality Control]
+    B --> C[Trimmomatic: Adapter Removal & Quality Trimming]
+    C --> D[SPAdes: Genome Assembly]
+    D --> E[QUAST: Assembly Evaluation]
+    E --> F[Final Reports & Contigs]
+
+  %% Add spacing
+  style A fill:none,stroke:none
+  style F fill:none,stroke:none
 ```
 
 

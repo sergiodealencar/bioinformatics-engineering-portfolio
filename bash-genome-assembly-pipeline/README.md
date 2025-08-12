@@ -18,6 +18,8 @@ flowchart LR
     E --> F[Final Reports & Contigs]
 
 
+
+
 ## 📂 Input Files
 
 Place all your `.fastq.gz` files in the same directory as the pipeline script.  

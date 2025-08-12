@@ -1,5 +1,5 @@
 
-# Bioinformatics Engineering Porfolio (Sérgio de Alencar)
+# Bioinformatics Engineering Portfolio (Sérgio de Alencar)
 
 This repository is dedicated to the study, practice, and documentation of manual software testing, following the whole Software Testing Life Cycle (STLC):
 

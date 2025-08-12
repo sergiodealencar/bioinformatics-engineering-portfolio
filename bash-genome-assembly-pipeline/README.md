@@ -15,10 +15,6 @@ flowchart LR
     C --> D[SPAdes: Genome Assembly]
     D --> E[QUAST: Assembly Evaluation]
     E --> F[Final Reports & Contigs]
-
-  %% Add spacing
-  style A fill:none,stroke:none
-  style F fill:none,stroke:none
 ```
 
 

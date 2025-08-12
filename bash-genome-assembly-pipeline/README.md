@@ -10,7 +10,6 @@ It includes **pre-processing**, **assembly**, and **quality assessment** steps, 
 ### **Workflow**
 
 ```mermaid
-
 flowchart LR
     A[Raw Paired-end Reads] --> B[FastQC: Quality Control]
     B --> C[Trimmomatic: Adapter Removal & Quality Trimming]
@@ -18,8 +17,6 @@ flowchart LR
     D --> E[QUAST: Assembly Evaluation]
     E --> F[Final Reports & Contigs]
 
-
----
 
 ## 📂 Input Files
 

@@ -72,6 +72,7 @@ assembly_results/
 ...
 
 Customization
+
 To add more samples, edit the SAMPLES array in assembly_pipeline_bacteria.sh.
 
 Adjust Trimmomatic parameters for different adapter sets or quality thresholds.

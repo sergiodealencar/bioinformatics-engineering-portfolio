@@ -52,6 +52,7 @@ You can install them via **Conda**:
 ```bash
 conda create -n genome_assembly fastqc trimmomatic spades quast -c bioconda
 conda activate genome_assembly
+```
 
 🚀 Usage
 Run the pipeline:

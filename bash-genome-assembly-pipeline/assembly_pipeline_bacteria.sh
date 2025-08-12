@@ -1,7 +1,7 @@
 #!/bin/bash
 # Genome assembly pipeline for bacterial samples
 # Pre-processing → Assembly → Evaluation
-# Author: Your Name
+# Author: Sérgio de Alencar
 
 set -e  # stop if any command fails
 

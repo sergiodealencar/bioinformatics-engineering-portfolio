@@ -16,6 +16,7 @@ flowchart LR
     D --> E[QUAST: Assembly Evaluation]
     E --> F[Final Reports & Contigs]
 
+
 ---
 
 ## 📂 Input Files

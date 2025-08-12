@@ -59,7 +59,7 @@ Run the pipeline:
 
 bash [assembly_pipeline_bacteria.sh](https://github.com/sergiodealencar/bioinformatics-engineering-portfolio/blob/main/bash-genome-assembly-pipeline/assembly_pipeline_bacteria.sh)
 
-Script Parameters
+```Script Parameters
 THREADS: number of CPU threads to use (default: 8)
 
 OUTPUT_DIR: directory where results will be stored (default: assembly_results/)

@@ -16,7 +16,7 @@ flowchart LR
     C --> D[SPAdes: Genome Assembly]
     D --> E[QUAST: Assembly Evaluation]
     E --> F[Final Reports & Contigs]
-
+```
 
 
 

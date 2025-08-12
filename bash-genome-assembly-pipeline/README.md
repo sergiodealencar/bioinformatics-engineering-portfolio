@@ -72,8 +72,9 @@ assembly_results/
 │   ├── ACS09_S3_L001_spades_output/
 │   └── ACS09_S3_L001_quast_report/
 ...
+```
 
-Customization
+## Customization
 
 To add more samples, edit the SAMPLES array in assembly_pipeline_bacteria.sh.
 

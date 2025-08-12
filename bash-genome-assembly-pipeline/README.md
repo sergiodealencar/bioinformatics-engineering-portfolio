@@ -1,10 +1,10 @@
-# 🧬 Bacterial Genome Assembly Using Bash Pipeline
+# Bacterial Genome Assembly Using Bash Pipeline
 
 This repository contains a **Bash-based pipeline** for processing and assembling bacterial genomes from paired-end Illumina reads. It includes **pre-processing**, **assembly**, and **quality assessment** steps, and is designed to handle multiple samples in one run.
 
 ---
 
-## 📋 Overview
+## Overview
 
 ### **Workflow**
 
@@ -47,7 +47,8 @@ Make sure the following tools are installed and available in your `$PATH`:
 - [QUAST](http://quast.sourceforge.net/)
 
 
-Usage
+## Usage
+
 Run the pipeline:
 
 bash [assembly_pipeline_bacteria.sh](https://github.com/sergiodealencar/bioinformatics-engineering-portfolio/blob/main/bash-genome-assembly-pipeline/assembly_pipeline_bacteria.sh)
@@ -57,7 +58,7 @@ THREADS: number of CPU threads to use (default: 8)
 
 OUTPUT_DIR: directory where results will be stored (default: assembly_results/)
 
-📁 Output Structure
+Output Structure
 For each sample, a separate folder is created inside assembly_results/:
 
 assembly_results/
@@ -70,7 +71,7 @@ assembly_results/
 │   └── ACS09_S3_L001_quast_report/
 ...
 
-🛠 Customization
+Customization
 To add more samples, edit the SAMPLES array in assembly_pipeline_bacteria.sh.
 
 Adjust Trimmomatic parameters for different adapter sets or quality thresholds.

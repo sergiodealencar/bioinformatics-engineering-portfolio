@@ -57,7 +57,7 @@ My expertise lies in:
 ---
 
 ## 📚 Publications & Research
-- *Paper Title*, Journal, Year – [DOI/Link](link_here)
+- *Paper Title*, Journal, Year – [DOI/Link](link_here of Each article)
 - *Paper Title*, Conference, Year – [DOI/Link](link_here)
 
 ---

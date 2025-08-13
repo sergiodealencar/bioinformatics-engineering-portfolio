@@ -41,7 +41,7 @@ My expertise lies in:
 ### 🧬 Genome Assembly & Annotation
 - **Description:** Built a genome assembly pipeline using **SPAdes** and annotated with **Prokka**.
 - **Tech Stack:** Python, Bash, Snakemake
-- **Repo:** [View Project]([link_here](https://github.com/sergiodealencar/bioinformatics-engineering-portfolio/tree/main/bash-genome-assembly-pipeline))
+- **Repo:** [View Project](https://github.com/sergiodealencar/bioinformatics-engineering-portfolio/tree/main/bash-genome-assembly-pipeline)
 
 ### 🔍 Variant Calling Pipeline
 - **Description:** Automated workflow for identifying SNPs/indels using **GATK** and **bcftools**.

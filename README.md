@@ -1,6 +1,7 @@
 # 🧬 Bioinformatics Engineering Portfolio (Sérgio de Alencar)
 
 Welcome to my Bioinformatics Engineering portfolio!  
+
 Here you'll find projects, tools, and research that combine **biology**, **data science**, and **software engineering** to solve problems in genomics, transcriptomics, proteomics, and beyond.
 
 ---

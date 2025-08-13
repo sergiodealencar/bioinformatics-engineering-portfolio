@@ -38,7 +38,7 @@ My expertise lies in:
 
 ## 📂 Featured Projects
 
-### 🧬 Genome Assembly & Annotation
+### 🧬 Bacterial Genome Assembly Using Bash Pipeline
 - **Description:** Built a genome assembly pipeline using **SPAdes** and annotated with **Prokka**.
 - **Tech Stack:** Python, Bash, Snakemake
 - **Repo:** [View Project](https://github.com/sergiodealencar/bioinformatics-engineering-portfolio/tree/main/bash-genome-assembly-pipeline)

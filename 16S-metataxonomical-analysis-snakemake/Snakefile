@@ -1,0 +1,60 @@
+import os
+
+RESULTS_DIR = "results"
+
+rule all:
+    input:
+        os.path.join(RESULTS_DIR, "table.qza"),
+        os.path.join(RESULTS_DIR, "rep-seqs.qza"),
+        os.path.join(RESULTS_DIR, "table.qzv"),
+        os.path.join(RESULTS_DIR, "demux.qzv")
+
+rule import_data:
+    input:
+        manifest="manifest.csv"
+    output:
+        demux_qza=os.path.join(RESULTS_DIR, "demux.qza")
+    shell:
+        """
+        qiime tools import \
+            --type 'SampleData[PairedEndSequencesWithQuality]' \
+            --input-path {input.manifest} \
+            --output-path {output.demux_qza} \
+            --input-format PairedEndFastqManifestPhred33
+        """
+
+rule summarize_demux:
+    input:
+        demux_qza=os.path.join(RESULTS_DIR, "demux.qza")
+    output:
+        demux_qzv=os.path.join(RESULTS_DIR, "demux.qzv")
+    shell:
+        "qiime demux summarize --i-data {input.demux_qza} --o-visualization {output.demux_qzv}"
+
+rule dada2_denoise:
+    input:
+        demux_qza=os.path.join(RESULTS_DIR, "demux.qza")
+    output:
+        table=os.path.join(RESULTS_DIR, "table.qza"),
+        rep_seqs=os.path.join(RESULTS_DIR, "rep-seqs.qza"),
+        denoising_stats=os.path.join(RESULTS_DIR, "denoising-stats.qza")
+    shell:
+        """
+        qiime dada2 denoise-paired \
+            --i-demultiplexed-seqs {input.demux_qza} \
+            --p-trim-left-f 0 \
+            --p-trim-left-r 0 \
+            --p-trunc-len-f 0 \
+            --p-trunc-len-r 0 \
+            --o-table {output.table} \
+            --o-representative-sequences {output.rep_seqs} \
+            --o-denoising-stats {output.denoising_stats}
+        """
+
+rule summarize_table:
+    input:
+        table=os.path.join(RESULTS_DIR, "table.qza")
+    output:
+        table_qzv=os.path.join(RESULTS_DIR, "table.qzv")
+    shell:
+        "qiime feature-table summarize --i-table {input.table} --o-visualization {output.table_qzv} --m-sample-metadata-file {input.manifest}"

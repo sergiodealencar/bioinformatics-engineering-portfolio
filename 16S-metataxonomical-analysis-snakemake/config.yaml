@@ -1,0 +1,13 @@
+project: "projeto-16S"
+
+# Diretório de entrada com os FASTQ
+data_dir: "/projeto-16S/dados"
+
+# Diretório de saída
+results_dir: "/projeto-16S/resultados"
+
+# Parâmetros de trimagem (ajuste se necessário)
+trim_left_f: 0
+trim_left_r: 0
+trunc_len_f: 250
+trunc_len_r: 250

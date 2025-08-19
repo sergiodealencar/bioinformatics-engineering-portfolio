@@ -1,0 +1,10 @@
+name: qiime2
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - qiime2=2023.8
+  - snakemake
+  - pandas
+  - numpy

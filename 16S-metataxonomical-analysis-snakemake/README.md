@@ -1,7 +1,6 @@
 🔍 16S Metataxonomical Analysis with Snakemake + QIIME2
 
-This repository provides a reproducible Snakemake workflow for processing and analyzing 16S rRNA sequencing data using QIIME2
- inside Docker.
+This repository provides a reproducible Snakemake workflow for processing and analyzing 16S rRNA sequencing data using QIIME2 inside Docker.
 
 The pipeline automates:
 

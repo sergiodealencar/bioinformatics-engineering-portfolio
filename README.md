@@ -41,12 +41,12 @@ My expertise lies in:
 
 ### 🧬 Bacterial Genome Assembly Using Bash Pipeline
 - **Description:** Built a genome assembly pipeline using **SPAdes** and annotated with **Prokka**.
-- **Tech Stack:** Python, Bash, Snakemake
+- **Tech Stack:** Bash
 - **Repo:** [View Project](https://github.com/sergiodealencar/bioinformatics-engineering-portfolio/tree/main/bash-genome-assembly-pipeline)
 
-### 🔍 Variant Calling Pipeline
-- **Description:** Automated workflow for identifying SNPs/indels using **GATK** and **bcftools**.
-- **Tech Stack:** Nextflow, Docker, AWS Batch
+### 🔍 16S Metataxonomical Analysis Using Snakemake Pipeline
+- **Description:** Reproducible and automated workflow for processing and analyzing 16S rRNA sequencing data.
+- **Tech Stack:** Snakemake, Docker, Python
 - **Repo:** [View Project](link_here)
 
 ### 📊 Transcriptomics Analysis

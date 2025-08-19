@@ -1,1 +1,6 @@
 
+sample-id,absolute-filepath,direction
+Acalanto-16S_S2_L001,/Users/sergio/Downloads/projeto-16S/dados/Acalanto-16S_S2_L001_R1_001.fastq.gz,forward
+Acalanto-16S_S2_L001,/Users/sergio/Downloads/projeto-16S/dados/Acalanto-16S_S2_L001_R2_001.fastq.gz,reverse
+Lagoa-da-confusao-16S_S1_L001,/Users/sergio/Downloads/projeto-16S/dados/Lagoa-da-confusao-16S_S1_L001_R1_001.fastq.gz,forward
+Lagoa-da-confusao-16S_S1_L001,/Users/sergio/Downloads/projeto-16S/dados/Lagoa-da-confusao-16S_S1_L001_R2_001.fastq.gz,reverse

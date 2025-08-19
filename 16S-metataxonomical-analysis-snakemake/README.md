@@ -1,3 +1,21 @@
+🔍 16S Metataxonomical Analysis with Snakemake + QIIME2
+
+This repository provides a reproducible Snakemake workflow for processing and analyzing 16S rRNA sequencing data using QIIME2
+ inside Docker.
+
+The pipeline automates:
+
+✅ Importing paired-end FASTQ data
+
+✅ Quality control and denoising with DADA2
+
+✅ Feature table and representative sequences generation
+
+✅ Taxonomic classification using the SILVA database
+
+✅ Interactive visualizations (demux summaries, taxa barplots, feature tables)
+
+
 📂 Project Structure
 
 ```

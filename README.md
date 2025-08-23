@@ -49,11 +49,6 @@ My expertise lies in:
 - **Tech Stack:** Snakemake, Docker, Python
 - **Repo:** [View Project](link_here)
 
-### 📊 Transcriptomics Analysis
-- **Description:** RNA-Seq pipeline for differential expression analysis using **DESeq2**.
-- **Tech Stack:** R, Bioconductor, HPC environment
-- **Repo:** [View Project](link_here)
-
 ---
 
 ## 📚 Publications & Research

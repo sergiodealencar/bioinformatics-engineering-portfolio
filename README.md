@@ -39,7 +39,7 @@ I combine deep scientific expertise with quality assurance principles to ensure 
 **Databases & Resources**
 *   NCBI, Ensembl, PDB, ClinVar, KEGG, MSigDB
 
-**Structural Bioinformatics
+**Structural Bioinformatics**
 *   Structure Visualization (PyMol, Deep View)
 *   Molecular Docking (AutoDock)
 

@@ -64,7 +64,7 @@ My expertise lies in:
 
 ## 📫 Contact
 - **Email:** sergiodealencar@gmail.com 
-- **LinkedIn:** [www.linkedin.com/in/sergiodealencar](link_here)  
+- **LinkedIn:** [www.linkedin.com/in/sergiodealencar](www.linkedin.com/in/sergiodealencar)  
 
 ---
 

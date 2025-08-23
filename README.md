@@ -16,24 +16,36 @@ My expertise lies in:
 
 ---
 
-## 🔬 Skills & Technologies
+### **Technical Skills**
 
 **Programming & Scripting**
-- Python, R, Bash, JavaScript
+*   **Bash**, **Python**, R
 
 **Bioinformatics Tools**
-- BLAST, Bowtie2, HISAT2, BWA
-- GATK, SAMtools, BEDtools
-- Bioconductor, BioPython
+*   **Sequence Alignment:** BLAST, MUSCLE
+*   **Read Mapping:** BWA, Bowtie, HISAT2
+*   **Variant Calling:** GATK, SAMtools
+*   **Quality Control:** FastQC, Trimmomatic
+*   **RNA-seq Analysis:** DESeq2
+*   **Metagenomics:** Qiime 2, Kraken
+*   **Genome Assembly:** SPAdes, Velvet, SOAPdenovo
+*   **Transcriptome Assembly:** Trinity
+*   **Visualization:** IGV (Integrative Genomics Viewer)
 
-**Data Science & Machine Learning**
-- scikit-learn, TensorFlow, PyTorch
-- Pandas, NumPy, Matplotlib, Seaborn
+**Workflow Management & Containerization**
+*   **Workflow Systems:** Snakemake
+*   **Containerization:** Docker, Apptainer
+*   **Package Management:** Conda, Miniforge
+*   **GUI Platforms:** Galaxy
 
-**Workflow & Cloud**
-- Snakemake, Nextflow
-- AWS, GCP, Azure
-- Docker, Singularity
+**Databases & Resources**
+*   NCBI, Ensembl, PDB, ClinVar, KEGG, MSigDB
+
+**Specialized Analysis**
+*   Molecular Docking (AutoDock)
+
+**Data Formats**
+*   VCF, BAM, FASTQ
 
 ---
 

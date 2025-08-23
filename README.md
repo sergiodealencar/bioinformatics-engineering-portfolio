@@ -68,7 +68,7 @@ My expertise lies in:
 
 ---
 
-> *"In bioinformatics, every sequence tells a story — I build the tools to read them."*
+> *"Code. Repeat. Discover."*
 
 
 

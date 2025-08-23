@@ -63,10 +63,8 @@ My expertise lies in:
 ---
 
 ## 📫 Contact
-- **Email:** your_email@example.com  
-- **LinkedIn:** [linkedin.com/in/yourusername](link_here)  
-- **Twitter/X:** [@yourhandle](link_here)  
-- **Website/Blog:** [yourwebsite.com](link_here)  
+- **Email:** sergiodealencar@gmail.com 
+- **LinkedIn:** [www.linkedin.com/in/sergiodealencar](link_here)  
 
 ---
 

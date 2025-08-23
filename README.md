@@ -60,6 +60,8 @@ I combine deep scientific expertise with quality assurance principles to ensure 
 - **Tech Stack:** Snakemake, Docker, Python
 - **Repo:** [View Project](link_here)
 
+- IN CONSTRUCTION - WILL ADD MORE PROJECTS SOON -
+
 ---
 
 ## 📚 Publications & Research

@@ -57,8 +57,7 @@ My expertise lies in:
 ---
 
 ## 📚 Publications & Research
-- *Paper Title*, Journal, Year – [DOI/Link](link_here of Each article)
-- *Paper Title*, Conference, Year – [DOI/Link](link_here)
+- *List of scientific publications* – [ORCID Link](https://orcid.org/0000-0001-8236-6468)
 
 ---
 

@@ -41,7 +41,8 @@ My expertise lies in:
 **Databases & Resources**
 *   NCBI, Ensembl, PDB, ClinVar, KEGG, MSigDB
 
-**Specialized Analysis**
+**Structural Bioinformatics
+*   Structure Visualization (PyMol, Deep View)
 *   Molecular Docking (AutoDock)
 
 **Data Formats**
